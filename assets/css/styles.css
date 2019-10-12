@@ -1,0 +1,42 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 22px;
+  background: rgb(2,0,36);
+  background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(0,96,191,1) 0%, rgba(57,181,117,1) 60%);
+  color: #F5F5F5;
+  font-weight: bold;
+}
+
+nav img {
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav section button {
+  padding: 10px 15px;
+  background-color: #F5F5F5;
+  color: #0060bf;
+  font-weight: bolder;
+  border: none;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style: none;
+  padding: 15px;
+}
